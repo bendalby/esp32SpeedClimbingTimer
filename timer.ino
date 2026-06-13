@@ -47,9 +47,9 @@ const char* ap_ssid = "Gravity Worx Speed Timer";
 const char* ap_password = "";  // Min 8 chars, or "" for open network
 
 // ── Gym WiFi + Google Sheets ───────────────────────────────────────────────
-const char* sta_ssid      = "Optus_53BE2F";
-const char* sta_password  = "kudzuzerdauRX5r";
-const char* appsScriptUrlDefault = "https://script.google.com/macros/s/AKfycbxGwfNqHrRbOQc94GFdXUdN1CqYKECOepomL5HrnpcQcFjcTbxgDg3ske9Gh4mhkcsKgg/exec";
+const char* sta_ssid      = "";
+const char* sta_password  = "";
+const char* appsScriptUrlDefault = "";
 String appsScriptUrl = "";   // loaded from NVS at boot
 bool   sheetsLinked  = false;
 Preferences prefs;
